@@ -16,5 +16,5 @@ dependencyResolutionManagement {
         maven { url ("https://jcenter.bintray.com") }
     }
 }
-rootProject.name = "WebtoAppSumon"
+rootProject.name = "WebtoAppSumona"
 include ':app'
