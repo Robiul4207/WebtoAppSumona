@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
         ///-----------------
 
-        webView.loadUrl(getString(R.string.web_link3));
+        webView.loadUrl(getString(R.string.web_link));
         offlineGameBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
