@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WebtoAppSumon</string>
+    <string name="web_link">http://www.google.com/</string>
+    <string name="web_link1">http://www.w3schools.com/</string>
+    <string name="web_link2">https://shutkipalli.com/</string>
+    <string name="web_link3">http://www.bpsc.gov.bd/</string>
+    <string name="web_link4">http://prepaid.desco.org.bd/</string>
+
+
+</resources>

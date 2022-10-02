@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#efe9e9"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/rafsan"
+        android:layout_marginBottom="150dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <TextView
+        android:textSize="16sp"
+        android:text="Please wait...."
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progressbarId"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:indeterminate="true"
+        android:layout_marginTop="5dp" />
+</LinearLayout>
