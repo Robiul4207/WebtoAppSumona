@@ -1,9 +1,8 @@
-package com.robiultec.webtoappsumon;
+package com.robiultec.webtoappsumona;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 

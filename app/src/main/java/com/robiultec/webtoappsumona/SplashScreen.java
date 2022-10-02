@@ -1,9 +1,8 @@
-package com.robiultec.webtoappsumon;
+package com.robiultec.webtoappsumona;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
 import android.view.Window;
 import android.view.WindowManager;
 

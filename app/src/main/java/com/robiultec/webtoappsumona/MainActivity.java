@@ -1,4 +1,4 @@
-package com.robiultec.webtoappsumon;
+package com.robiultec.webtoappsumona;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -20,7 +20,6 @@ import android.content.IntentFilter;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
@@ -35,23 +34,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.Window;
-import android.view.WindowManager;
 import android.webkit.CookieManager;
 import android.webkit.DownloadListener;
 import android.webkit.URLUtil;
 import android.webkit.WebChromeClient;
-import android.webkit.WebResourceError;
-import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
-import java.net.NetworkInterface;
 
 public class MainActivity extends AppCompatActivity {
     WebView webView,gameWebView;

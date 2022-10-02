@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.robiultec.webtoappsumon">
+    package="com.robiultec.webtoappsumona">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,27 +23,27 @@
         android:theme="@style/Theme.WebtoAppSumon"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ScannerViewActivity"
+            android:name="com.robiultec.webtoappsumona.ScannerViewActivity"
             android:exported="false" />
         <activity
-            android:name=".ScanQrCode2"
+            android:name="com.robiultec.webtoappsumona.ScanQrCode2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name="com.robiultec.webtoappsumona.MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".ScanQrCode"
+            android:name="com.robiultec.webtoappsumona.ScanQrCode"
             android:exported="false" />
         <activity
-            android:name=".AboutDeveloper"
+            android:name="com.robiultec.webtoappsumona.AboutDeveloper"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.robiultec.webtoappsumona.MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.robiultec.webtoappsumona.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

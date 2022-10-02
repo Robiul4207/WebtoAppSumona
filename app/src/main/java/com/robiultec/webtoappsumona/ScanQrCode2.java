@@ -1,6 +1,5 @@
-package com.robiultec.webtoappsumon;
+package com.robiultec.webtoappsumona;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ClipData;

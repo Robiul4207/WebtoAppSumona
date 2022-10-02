@@ -1,4 +1,4 @@
-package com.robiultec.webtoappsumon;
+package com.robiultec.webtoappsumona;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.Manifest;
 import android.os.Bundle;
 
 import com.google.zxing.Result;
-import com.google.zxing.ResultPoint;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
